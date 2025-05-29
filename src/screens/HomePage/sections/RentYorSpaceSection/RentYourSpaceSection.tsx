@@ -1,15 +1,14 @@
-import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
 export const RentYourSpaceSection = (): JSX.Element => {
   return (
-    <Card className="relative flex flex-col w-full max-w-[710px] border-none shadow-none bg-white rounded-[0px_60px_60px_0px]">
-      <CardContent className="flex flex-col items-start gap-8 px-20 py-[60px]">
-        <div className="flex flex-col w-full max-w-[519px] items-start gap-6">
-          <h1 className="font-desktop-h1 font-[number:var(--desktop-h1-font-weight)] text-text text-[length:var(--desktop-h1-font-size)] tracking-[var(--desktop-h1-letter-spacing)] leading-[var(--desktop-h1-line-height)] [font-style:var(--desktop-h1-font-style)]">
-            Find Verified PGs &amp; Hostels That Feel Like Home
+    <Card className="relative w-full max-w-full md:max-w-[90%] lg:max-w-[710px] border-none shadow-none bg-white rounded-none lg:rounded-[0px_60px_60px_0px]">
+      <CardContent className="flex flex-col items-start gap-6 sm:gap-8 px-4 sm:px-8 md:px-12 lg:px-20 py-8 sm:py-10 md:py-12 lg:py-[60px]">
+        <div className="flex flex-col w-full items-start gap-4 sm:gap-6">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-text leading-tight">
+            Find Verified PGs & Hostels That Feel Like Home
           </h1>
-          <p className="font-desktop-subtitle font-[number:var(--desktop-subtitle-font-weight)] text-text text-[length:var(--desktop-subtitle-font-size)] tracking-[var(--desktop-subtitle-letter-spacing)] leading-[var(--desktop-subtitle-line-height)] [font-style:var(--desktop-subtitle-font-style)]">
+          <p className="text-sm sm:text-base md:text-lg text-text leading-relaxed">
             Trusted listings, meals, AC, Wi-Fi — everything ready to move in
           </p>
         </div>
@@ -17,3 +16,4 @@ export const RentYourSpaceSection = (): JSX.Element => {
     </Card>
   );
 };
+
