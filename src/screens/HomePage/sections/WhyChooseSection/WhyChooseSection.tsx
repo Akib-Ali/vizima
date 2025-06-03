@@ -108,11 +108,7 @@ export const WhyChooseSection = (): JSX.Element => {
             <h3 className="font-desktop-h4 font-[number:var(--desktop-h4-font-weight)] text-text text-[length:var(--desktop-h4-font-size)] text-center tracking-[var(--desktop-h4-letter-spacing)] leading-[var(--desktop-h4-line-height)] [font-style:var(--desktop-h4-font-style)]">
               {city.name}
             </h3>
-<<<<<<< HEAD
             <Card className="w-full h-[180px] sm:h-[196px] p-0 border-0 overflow-hidden rounded-[30px] w-[196px]">
-=======
-            <Card className="w-full h-[180px] sm:h-[196px] p-0 border-0 overflow-hidden rounded-[30px]">
->>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
               <CardContent className="p-0 h-full">
                 <div
                   className="w-full h-full rounded-[30px] bg-cover bg-center"

@@ -85,19 +85,11 @@ export const BulkAccommodationSection = (): JSX.Element => {
             </div>
 
             <Input
-<<<<<<< HEAD
               className="h-[48px] px-10 py-3 bg-bg rounded-xl text-[#49735a] font-desktop-subtitle"
               placeholder="Email address"
             />
 
             <Button className="h-[48px] w-[158px] px-10 py-3 bg-green rounded-[40px] font-desktop-subtitle-bold text-white">
-=======
-              className="px-10 py-3 bg-bg rounded-xl text-[#49735a] font-desktop-subtitle"
-              placeholder="Email address"
-            />
-
-            <Button className="px-10 py-3 bg-green rounded-[40px] font-desktop-subtitle-bold text-white">
->>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
               Subscribe
             </Button>
           </div>

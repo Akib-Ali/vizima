@@ -11,69 +11,6 @@ import { WhyChooseSection } from "../screens/HomePage/sections/WhyChooseSection"
 
 export const Homepage = (): JSX.Element => {
     return (
-<<<<<<< HEAD
-=======
-        // <div className="bg-white flex flex-col items-center w-full">
-        //     <div className="w-full max-w-[1440px] relative">
-        //         <div className="w-full relative h-[500px] md:h-[600px] lg:h-[767px]">
-        //             <img
-        //                 src="https://c.animaapp.com/mb8dvo30LDNV4D/img/image.png"
-        //                 alt="Background"
-        //                 className="absolute inset-0 w-full h-full object-cover rounded-lg"
-        //             />
-        //             <div className="absolute inset-0 flex items-center justify-start px-4 sm:px-8 md:px-16 lg:px-24">
-        //                 <RentYourSpaceSection />
-        //             </div>
-        //         </div>
-        //         <div className="px-4 sm:px-8 md:px-16 lg:px-24 mt-[-40px] z-10 relative">
-        //             <SearchSection />
-        //         </div>
-        //         <VisitBeforeYouBookSection />
-        //         <WhyChooseSection />
-        //         <FeaturedPropertiesSection />
-        //         <PartnershipSection />
-        //         <CorporateInfoSection />
-        //          <TestimonialsSection />
-
-        //         {/* 
-
-
-
-
-        //         <BulkAccommodationSection /> */}
-        //     </div>
-        // </div>
-
-
-
-
-
-        //     <div className="bg-white flex flex-col w-full">
-        //   {/* <NavigationMenuSection /> */}
-
-        //   <div className="w-full relative">
-        //     <img
-        //       className="w-full h-[767px] object-cover"
-        //       alt="Background image"
-        //       src="https://c.animaapp.com/mb8dvo30LDNV4D/img/image.png"
-        //     />
-        //     <div className="absolute inset-0">
-        //       <RentYourSpaceSection />
-        //       <SearchSection />
-        //     </div>
-        //   </div>
-
-        //   <VisitBeforeYouBookSection />
-        //   <WhyChooseSection />
-        //   <FeaturedPropertiesSection />
-        //   <PartnershipSection />
-        //   <CorporateInfoSection />
-        //   <TestimonialsSection />
-        //   <BulkAccommodationSection />
-        // </div>
-
->>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
-
         <>
             <div className="w-full relative">
                 <img
@@ -109,8 +46,4 @@ export const Homepage = (): JSX.Element => {
         </>
 
     );
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15

@@ -262,19 +262,11 @@ export const TestimonialsSection = (): JSX.Element => {
         </CarouselContent>
 
         {/* Custom Carousel Controls */}
-<<<<<<< HEAD
         <div className="flex justify-center gap-4 mt-6 hover:text-white">
           <CarouselPrevious className="hover:text-white gap-[5px] mr-[100px] bg-blue-500 text-white  bg-green text-white hover:bg-green/90 rounded-xl w-12 h-12">
             <ChevronLeftIcon className="w-5 h-5" />
           </CarouselPrevious>
           <CarouselNext className="hover:text-white gap-[5px] ml-[100px] bg-blue-500 text-white bg-green text-white hover:bg-green/90 rounded-xl w-12 h-12">
-=======
-        <div className="flex justify-center gap-4 mt-6">
-          <CarouselPrevious className="bg-green text-white hover:bg-green/90 rounded-xl w-12 h-12">
-            <ChevronLeftIcon className="w-5 h-5" />
-          </CarouselPrevious>
-          <CarouselNext className="bg-green text-white hover:bg-green/90 rounded-xl w-12 h-12">
->>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
             <ChevronRightIcon className="w-5 h-5" />
           </CarouselNext>
         </div>
