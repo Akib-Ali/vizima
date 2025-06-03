@@ -70,7 +70,11 @@ module.exports = {
   				'Segoe UI Emoji"',
   				'Segoe UI Symbol"',
   				'Noto Color Emoji"'
+<<<<<<< HEAD
   			],
+=======
+  			]
+>>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
   		},
   		boxShadow: {
   			cards: 'var(--cards)'

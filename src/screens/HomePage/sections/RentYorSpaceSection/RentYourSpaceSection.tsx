@@ -1,5 +1,8 @@
 import { Card, CardContent } from "../../../../components/ui/card";
+<<<<<<< HEAD
 import { SearchSection } from "../SearchSection";
+=======
+>>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
 
 export const RentYourSpaceSection = (): JSX.Element => {
   return (

@@ -95,7 +95,11 @@ export const NavigationMenuSection = (): JSX.Element => {
                 </NavigationMenuItem>
               ))}
               <NavigationMenuItem>
+<<<<<<< HEAD
                 <Button className="px-6 py-2 bg-green rounded-full text-white font-semibold hover:bg-green-600 transition">
+=======
+                <Button className="px-6 py-2 bg-green rounded-full text-white font-semibold">
+>>>>>>> 9d321a1b7e4c85d673cf9fca8a96fb4a3cc61e15
                   Login
                 </Button>
               </NavigationMenuItem>
